@@ -13,3 +13,5 @@
 > kubectl describe pod nginx-pod
 
 > kubectl edit pod nginx-pod
+
+> kubectl delete -f first-pod.yaml
