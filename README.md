@@ -7,3 +7,9 @@
 > kubectl logs mongodb
 
 > kubectl exec -it mongodb-pod -- mongo
+
+> kubectl run nginx-pod --image=nginx
+
+> kubectl describe pod nginx-pod
+
+> kubectl edit pod nginx-pod
