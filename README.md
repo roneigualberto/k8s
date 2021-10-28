@@ -15,3 +15,5 @@
 > kubectl edit pod nginx-pod
 
 > kubectl delete -f first-pod.yaml
+
+> kubectl exec -it py-docker-pod bash
