@@ -5,3 +5,5 @@
 > kubectl run mongodb --image=mongo --port=27017
 
 > kubectl logs mongodb
+
+> kubectl exec -it mongodb-pod -- mongo
